@@ -1,7 +1,6 @@
 [build]
-  base = "player"
-  command = "npm run build"
-  publish = "dist"
+  command = "cd player && npm install && npm run build"
+  publish = "player/dist"
 
 [[redirects]]
   from = "/*"
