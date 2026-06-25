@@ -1,7 +1,7 @@
 [build]
   base = "player"
   command = "npm run build"
-  publish = "player/dist"
+  publish = "dist"
 
 [[redirects]]
   from = "/*"
