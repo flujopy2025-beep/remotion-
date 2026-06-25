@@ -1,8 +1,0 @@
-[build]
-  command = "cd player && npm install && npm run build"
-  publish = "player/dist"
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
