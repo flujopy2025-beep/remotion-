@@ -1,0 +1,1 @@
+export { KineticTypography } from "./KineticTypography";
